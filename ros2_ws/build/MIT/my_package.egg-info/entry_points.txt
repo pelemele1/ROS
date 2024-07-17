@@ -1,0 +1,4 @@
+[console_scripts]
+listener = my_package.minimal_subscriber:main
+talker = my_package.minimal_publisher:main
+

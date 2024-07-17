@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating my_package.egg-info
+writing my_package.egg-info/PKG-INFO
+writing dependency_links to my_package.egg-info/dependency_links.txt
+writing entry points to my_package.egg-info/entry_points.txt
+writing requirements to my_package.egg-info/requires.txt
+writing top-level names to my_package.egg-info/top_level.txt
+writing manifest file 'my_package.egg-info/SOURCES.txt'
+reading manifest file 'my_package.egg-info/SOURCES.txt'
+writing manifest file 'my_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robotserver/ros2_ws/install/MIT/lib/python3.10/site-packages/my-package.egg-link (link to .)
+Installing listener script to /home/robotserver/ros2_ws/install/MIT/lib/my_package
+Installing talker script to /home/robotserver/ros2_ws/install/MIT/lib/my_package
+
+Installed /home/robotserver/ros2_ws/build/MIT
+running symlink_data
+symbolically linking /home/robotserver/ros2_ws/build/MIT/resource/my_package -> /home/robotserver/ros2_ws/install/MIT/share/ament_index/resource_index/packages
+creating /home/robotserver/ros2_ws/install/MIT/share/my_package
+symbolically linking /home/robotserver/ros2_ws/build/MIT/package.xml -> /home/robotserver/ros2_ws/install/MIT/share/my_package
