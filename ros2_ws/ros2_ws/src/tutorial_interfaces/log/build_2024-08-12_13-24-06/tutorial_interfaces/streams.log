@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/robotserver/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/robotserver/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j8 -l8
+[0.030s] [0mPython executable: /home/user/miniconda3/envs/ros2_env/bin/python[0m
+[0.035s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.143s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.164s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.167s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.172s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.307s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.581s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.086s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.097s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.107s] -- Using PYTHON_EXECUTABLE: /home/user/miniconda3/envs/ros2_env/bin/python
+[1.107s] -- Using PYTHON_INCLUDE_DIRS: /home/robotserver/miniconda3/envs/ros2_env/include/python3.9
+[1.108s] -- Using PYTHON_LIBRARIES: /home/robotserver/miniconda3/envs/ros2_env/lib/libpython3.9.so
+[1.141s] [31mCMake Error at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:204 (message):
+[1.141s]   execute_process(/home/user/miniconda3/envs/ros2_env/bin/python -c 'import
+[1.141s]   numpy;print(numpy.get_include())') returned error code No such file or
+[1.141s]   directory
+[1.142s] Call Stack (most recent call first):
+[1.142s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.142s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.142s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[1.142s] 
+[1.142s] [0m
+[1.142s] -- Configuring incomplete, errors occurred!
+[1.142s] See also "/home/robotserver/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[1.148s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[1.150s] Invoked command in '/home/robotserver/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/robotserver/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j8 -l8

@@ -1,0 +1,12 @@
+[0mPython executable: /home/user/miniconda3/envs/ros2_env/bin/python[0m
+[31mCMake Error at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:204 (message):
+  execute_process(/home/user/miniconda3/envs/ros2_env/bin/python -c 'import
+  numpy;print(numpy.get_include())') returned error code No such file or
+  directory
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:19 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:1179: cmake_check_build_system] Error 1

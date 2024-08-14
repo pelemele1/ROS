@@ -1,0 +1,4 @@
+[0.257s] Invoking command in '/home/robotserver/Desktop/git/ROS/create3_examples_ws/build/create3_republisher': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/robotserver/Desktop/git/ROS/create3_examples_ws/build/create3_republisher -- -j8 -l8
+[0.304s] [ 50%] [32mBuilding CXX object CMakeFiles/create3_republisher.dir/republisher.cpp.o[0m
+[20.809s] [100%] [32m[1mLinking CXX executable create3_republisher[0m
+[22.144s] [100%] Built target create3_republisher
