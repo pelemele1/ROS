@@ -1,0 +1,55 @@
+[0.009s] Invoking command in '/home/robotserver/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble /usr/bin/cmake /home/robotserver/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/robotserver/ros2_ws/install/polygon_plugins
+[0.021s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.142s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.144s] -- Found polygon_base: 0.0.0 (/home/robotserver/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[0.145s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.174s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.261s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.261s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robotserver/ros2_ws/src/polygon_plugins/include>
+[0.261s] -- Configured cppcheck exclude dirs and/or files: 
+[0.262s] -- Added test 'lint_cmake' to check CMake code style
+[0.264s] -- Added test 'uncrustify' to check C / C++ code style
+[0.264s] -- Configured uncrustify additional arguments: 
+[0.264s] -- Added test 'xmllint' to check XML markup files
+[0.268s] -- Configuring done
+[0.274s] -- Generating done
+[0.275s] -- Build files have been written to: /home/robotserver/ros2_ws/build/polygon_plugins
+[0.281s] Invoked command in '/home/robotserver/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble /usr/bin/cmake /home/robotserver/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/robotserver/ros2_ws/install/polygon_plugins
+[0.282s] Invoking command in '/home/robotserver/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble /usr/bin/cmake --build /home/robotserver/ros2_ws/build/polygon_plugins -- -j8 -l8
+[0.328s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[0.892s] [100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[0.977s] [100%] Built target polygon_plugins
+[0.989s] Invoked command in '/home/robotserver/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble /usr/bin/cmake --build /home/robotserver/ros2_ws/build/polygon_plugins -- -j8 -l8
+[1.013s] Invoking command in '/home/robotserver/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble /usr/bin/cmake --install /home/robotserver/ros2_ws/build/polygon_plugins
+[1.021s] -- Install configuration: ""
+[1.021s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[1.021s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/include
+[1.021s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/include/polygon_plugins
+[1.021s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[1.021s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[1.021s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+[1.022s] -- Set runtime path of "/home/robotserver/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+[1.022s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[1.022s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[1.022s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[1.022s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[1.022s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[1.023s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[1.023s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[1.023s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[1.023s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[1.023s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[1.023s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[1.023s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[1.023s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+[1.024s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[1.024s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[1.024s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[1.024s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[1.024s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.024s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[1.024s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[1.025s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[1.025s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[1.025s] -- Installing: /home/robotserver/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml
+[1.027s] Invoked command in '/home/robotserver/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble /usr/bin/cmake --install /home/robotserver/ros2_ws/build/polygon_plugins

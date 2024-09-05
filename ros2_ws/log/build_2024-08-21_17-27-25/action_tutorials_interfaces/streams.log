@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/robotserver/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/robotserver/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/robotserver/ros2_ws/install/action_tutorials_interfaces
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.189s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.292s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.296s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.700s] -- Found Python3: /home/robotserver/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter 
+[0.809s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.826s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.241s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[1.241s]   Packages installing interfaces must include
+[1.241s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.241s]   package.xml
+[1.241s] Call Stack (most recent call first):
+[1.241s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[1.241s] 
+[1.241s] [0m
+[1.241s] -- Configuring incomplete, errors occurred!
+[1.241s] See also "/home/robotserver/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/CMakeOutput.log".
+[1.256s] Invoked command in '/home/robotserver/ros2_ws/build/action_tutorials_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/robotserver/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/robotserver/ros2_ws/install/action_tutorials_interfaces

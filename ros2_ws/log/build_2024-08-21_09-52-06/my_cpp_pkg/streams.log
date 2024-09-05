@@ -1,0 +1,107 @@
+[0.032s] Invoking command in '/home/robotserver/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble LD_LIBRARY_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces/lib:/home/robotserver/ros2_ws/install/tutorial_interfaces/lib:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/robotserver/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/robotserver/ros2_ws/install/my_cpp_pkg
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.139s] -- The CXX compiler identification is GNU 11.4.0
+[0.145s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.222s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.223s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.228s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.319s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.319s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.323s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.478s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.590s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.642s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.647s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.657s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.672s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.767s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.770s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.862s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.903s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.949s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.965s] -- Looking for pthread.h
+[1.033s] -- Looking for pthread.h - found
+[1.034s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.106s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.107s] -- Found Threads: TRUE  
+[1.269s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.416s] -- Found my_robot_interfaces: 0.0.0 (/home/robotserver/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.544s] -- Configuring done
+[1.598s] -- Generating done
+[1.602s] -- Build files have been written to: /home/robotserver/ros2_ws/build/my_cpp_pkg
+[1.622s] Invoked command in '/home/robotserver/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble LD_LIBRARY_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces/lib:/home/robotserver/ros2_ws/install/tutorial_interfaces/lib:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/robotserver/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/robotserver/ros2_ws/install/my_cpp_pkg
+[1.624s] Invoking command in '/home/robotserver/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble LD_LIBRARY_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces/lib:/home/robotserver/ros2_ws/install/tutorial_interfaces/lib:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robotserver/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[1.686s] [  5%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[1.687s] [ 10%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[1.687s] [ 15%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[1.687s] [ 20%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.690s] [ 25%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[1.696s] [ 30%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.699s] [ 35%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[1.705s] [ 40%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[7.625s] [ 45%] [32m[1mLinking CXX executable cpp_node[0m
+[7.836s] [ 45%] Built target cpp_node
+[7.862s] [ 50%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
+[8.775s] [ 55%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[8.976s] [ 60%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[9.133s] [ 60%] Built target add_two_ints_client
+[9.163s] [ 65%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[9.260s] [ 65%] Built target add_two_ints_server
+[9.570s] [ 70%] [32m[1mLinking CXX executable robot_news_station[0m
+[9.832s] [ 70%] Built target robot_news_station
+[10.033s] [ 75%] [32m[1mLinking CXX executable number_publisher[0m
+[10.340s] [ 80%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[10.340s] [ 80%] Built target number_publisher
+[10.555s] [ 80%] Built target hardware_status_publisher
+[13.414s] [ 85%] [32m[1mLinking CXX executable battery[0m
+[13.588s] [ 85%] Built target battery
+[14.038s] [ 90%] [32m[1mLinking CXX executable led_panel[0m
+[14.274s] [ 90%] Built target led_panel
+[14.348s] [ 95%] [32m[1mLinking CXX executable smartphone[0m
+[14.737s] [ 95%] Built target smartphone
+[15.208s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[15.612s] [100%] Built target number_counter
+[15.623s] Invoked command in '/home/robotserver/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble LD_LIBRARY_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces/lib:/home/robotserver/ros2_ws/install/tutorial_interfaces/lib:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robotserver/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[15.672s] Invoking command in '/home/robotserver/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble LD_LIBRARY_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces/lib:/home/robotserver/ros2_ws/install/tutorial_interfaces/lib:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robotserver/ros2_ws/build/my_cpp_pkg
+[15.678s] -- Install configuration: ""
+[15.679s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[15.679s] -- Set runtime path of "/home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[15.679s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[15.680s] -- Set runtime path of "/home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[15.680s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[15.683s] -- Set runtime path of "/home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[15.683s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[15.684s] -- Set runtime path of "/home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[15.684s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[15.687s] -- Set runtime path of "/home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[15.687s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[15.688s] -- Set runtime path of "/home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[15.688s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[15.689s] -- Set runtime path of "/home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[15.689s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+[15.690s] -- Set runtime path of "/home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher" to ""
+[15.690s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel
+[15.691s] -- Set runtime path of "/home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel" to ""
+[15.691s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery
+[15.692s] -- Set runtime path of "/home/robotserver/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery" to ""
+[15.692s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[15.692s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[15.692s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[15.692s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[15.693s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[15.693s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[15.693s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[15.693s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[15.693s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[15.693s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[15.694s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[15.694s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[15.694s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[15.694s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[15.694s] -- Installing: /home/robotserver/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[15.696s] Invoked command in '/home/robotserver/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble LD_LIBRARY_PATH=/home/robotserver/ros2_ws/install/my_robot_interfaces/lib:/home/robotserver/ros2_ws/install/tutorial_interfaces/lib:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robotserver/ros2_ws/build/my_cpp_pkg

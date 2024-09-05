@@ -1,0 +1,16 @@
+{
+    "cmake.configureOnOpen": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "python.autoComplete.extraPaths": [
+        "~/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces"
+    ],
+    "python.analysis.extraPaths": [
+        "~/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces"
+    ],
+    "workbench.activityBar.location": "default"
+}

@@ -1,0 +1,28 @@
+[0.011s] Invoking command in '/home/robotserver/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble /usr/bin/cmake /home/robotserver/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/robotserver/ros2_ws/install/polygon_plugins
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.127s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.336s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.337s] -- Detecting CXX compile features - done
+[0.341s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.515s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.614s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.623s] -- Found polygon_base: 0.0.0 (/home/robotserver/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[0.626s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.671s] [31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[0.671s]   Given plugin description file
+[0.671s]   '/home/robotserver/ros2_ws/src/polygon_plugins/plugins.xml' does not exist
+[0.671s] Call Stack (most recent call first):
+[0.671s]   CMakeLists.txt:14 (pluginlib_export_plugin_description_file)
+[0.671s] 
+[0.671s] [0m
+[0.671s] -- Configuring incomplete, errors occurred!
+[0.671s] See also "/home/robotserver/ros2_ws/build/polygon_plugins/CMakeFiles/CMakeOutput.log".
+[0.677s] Invoked command in '/home/robotserver/ros2_ws/build/polygon_plugins' returned '1': AMENT_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotserver/ros2_ws/install/polygon_base:/home/robotserver/ros2_ws/install/my_robot_bringup:/home/robotserver/ros2_ws/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/my_cpp_pkg:/home/robotserver/ros2_ws/install/my_robot_interfaces:/home/robotserver/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces:/home/robotserver/ros2_ws/install/py_srvcli:/home/robotserver/ros2_ws/install/py_pubsub:/home/robotserver/ros2_ws/install/my_py_pkg:/home/robotserver/Desktop/git/create3_main/install/create3_teleop:/home/robotserver/Desktop/git/create3_main/install/create3_msg_transfer:/home/robotserver/Desktop/git/create3_main/install/create3_control:/opt/ros/humble /usr/bin/cmake /home/robotserver/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/robotserver/ros2_ws/install/polygon_plugins
